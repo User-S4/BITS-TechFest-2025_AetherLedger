@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { DashboardPage } from './pages/DashboardPage';
 import { CalculatorPage } from './pages/CalculatorPage';
 import { MapPage } from './pages/MapPage';
+import { SatelliteInfoPage } from './pages/SatelliteInfoPage';
 import { AdvisorPage } from './pages/AdvisorPage';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/calculator" element={<CalculatorPage />} />
           <Route path="/map" element={<MapPage />} />
           <Route path="/advisor" element={<AdvisorPage />} />
+          <Route path="/satellite-info" element={<SatelliteInfoPage />} />
         </Routes>
       </Layout>
     </Router>

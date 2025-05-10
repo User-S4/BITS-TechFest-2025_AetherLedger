@@ -101,15 +101,6 @@ export const HomePage: React.FC = () => {
                 AetherLedger helps you monitor carbon emissions, forecast their movement, and
                 strategically deploy air purification measures to protect vulnerable communities.
               </p>
-              <div className="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 md:justify-start">
-                <Link to="/dashboard" className="btn btn-primary">
-                  Get Started
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-                <Link to="/calculator" className="btn btn-outline">
-                  Try Calculator
-                </Link>
-              </div>
             </motion.div>
             
             <motion.div

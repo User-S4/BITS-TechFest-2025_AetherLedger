@@ -11,43 +11,43 @@ export const AdvisorPage: React.FC = () => {
   const recommendedLocations = [
     {
       id: 1,
-      name: 'Downtown School District',
+      name: 'GEMS Wellington International School',
       type: 'School Zone',
       risk: 'High',
-      population: 1200,
+      population: 2200,
       recommendation: 'Install moss walls and industrial purifiers',
-      impact: 'Protects 1,200+ children and 100+ staff',
-      coordinates: [40.7128, -74.006], // NYC
+      impact: 'Protects 2,200+ children and 150+ staff',
+      coordinates: [25.1121, 55.1796], // Dubai
     },
     {
       id: 2,
-      name: 'Westside Community Hospital',
+      name: 'Dubai Healthcare City',
       type: 'Healthcare',
       risk: 'Critical',
-      population: 850,
+      population: 1200,
       recommendation: 'Deploy HEPA filtration and green buffer zone',
-      impact: 'Protects 850+ patients and 200+ medical staff',
-      coordinates: [34.0522, -118.2437], // LA
+      impact: 'Protects 1,200+ patients and 300+ medical staff',
+      coordinates: [25.2285, 55.3273], // Dubai
     },
     {
       id: 3,
-      name: 'Riverdale Residential Area',
+      name: 'Al Qusais Residential Area',
       type: 'Residential',
       risk: 'Medium',
-      population: 5600,
+      population: 8000,
       recommendation: 'Community air purifiers and tree planting',
-      impact: 'Improves air quality for 5,600+ residents',
-      coordinates: [41.8781, -87.6298], // Chicago
+      impact: 'Improves air quality for 8,000+ residents',
+      coordinates: [25.276987, 55.3617], // Dubai
     },
     {
       id: 4,
-      name: 'Eastside Senior Center',
+      name: 'Sharjah Senior Care Center',
       type: 'Elderly Care',
       risk: 'High',
-      population: 350,
+      population: 600,
       recommendation: 'Indoor filtration systems and outdoor ionizers',
-      impact: 'Protects 350+ vulnerable seniors',
-      coordinates: [29.7604, -95.3698], // Houston
+      impact: 'Protects 600+ vulnerable seniors',
+      coordinates: [25.3463, 55.4209], // Sharjah
     },
   ];
   

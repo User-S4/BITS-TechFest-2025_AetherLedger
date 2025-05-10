@@ -37,6 +37,7 @@ export const Header: React.FC = () => {
     { name: 'Calculator', path: '/calculator', icon: <Calculator className="h-5 w-5" /> },
     { name: 'Emission Map', path: '/map', icon: <Map className="h-5 w-5" /> },
     { name: 'Advisor', path: '/advisor', icon: <Lightbulb className="h-5 w-5" /> },
+    { name: 'Satellite Info', path: '/satellite-info', icon: <svg className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m4-1a4 4 0 11-8 0 4 4 0 018 0zm6.39 4.56l-2.83-2.83a2 2 0 00-2.83 0l-1.42 1.42a2 2 0 000 2.83l2.83 2.83a2 2 0 002.83 0l1.42-1.42a2 2 0 000-2.83z" /></svg> },
   ];
 
   return (
